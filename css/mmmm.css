@@ -1,0 +1,287 @@
+body{
+overflow-x: hidden;
+background-image: url(https://s1.ax1x.com/2020/10/15/0T904x.jpg);
+background-repeat: no-repeat;	
+}
+.sidebar{
+margin-top: -100px;	
+position: fixed;
+left: -250px;
+width: 150px;
+/* height: 100%; */
+height:855px;
+/* background-color:pink; */
+background-color:#063146;
+transition: all 0.5s ease;	
+}
+.sidebar header{
+font-size:30px;
+color:white;
+text-align: center;	
+line-height: 70px;
+background-color: #063146;
+user-select: none;
+}
+.sidebar ul a{
+display: block;
+height: 100%;
+width: 100%;
+line-height:65px;
+font-size:25px;
+color:white;	
+padding-left: 40px;
+box-sizing: border-box;
+border-top: 1px solid rgb(255,255,255,.1);
+border-bottom: 1px solid black;
+transition: 0.5s;
+}
+ul li:hover a{
+padding-left: 50px;	
+}
+.sidebar ul a i{
+margin-right: 16px;	
+}
+#check{
+display: none;	
+}
+label #btn,label #cancel{	
+position: absolute;
+cursor: pointer;
+/* background-color:red; */
+border-radius: 5px;	
+}
+#cancel{
+color: #063146;	
+margin-left: -85px;	
+margin-top:5px;
+}
+label #btn{
+/* border-radius: ;	 */
+left: 40px;
+top:0px;
+font-size: 35px;
+/* color:white; */
+padding: 6px 12px;	
+transition: all 0.5s;
+}
+label #cancel{	
+z-index: 1111;
+left:-500px;
+top:17px;
+font-size:20px;
+color:red;
+/* padding: 4px 9px; */
+transition: all 0.5s ease;
+}
+label #cancel:hover{
+left:-500px;	
+transform: rotate(180deg);		
+}
+#check:checked ~ .sidebar {
+top: 100px;	
+left:0px;
+}
+#check:checked ~ label #btn {
+top: 250px;	
+left:250px;
+opacity: 0;
+pointer-events: none;
+}
+#check:checked ~ label #cancel{
+left:195px;
+}
+label img{
+position: absolute;	
+width: 45px;
+hieght:45px;	
+transition: 0.8s;
+margin-top: -80px;
+}
+label img:hover{
+transform: rotate(180deg);	
+}
+.bbbb img{
+width: 3690px;
+height: 470px;	
+}
+#text p{
+color: red;	
+text-align: center;
+position: absolute;
+margin-top:-200px;
+margin-left:80px;
+}
+.introduzione h1{
+color: white;	
+font-size:20px;	
+color: white;
+}
+.introduzione p{
+margin-top: -10px;	
+font-size: 10px;
+color: white;
+}
+.iphone h1{
+font-size:20px;	
+color:black;	
+}
+.shut{
+margin-left:0;	
+}
+.shut img{	
+width:371px;
+height:317px;
+}
+.jj img{
+width:371px;
+height: 317px;	
+position: absolute;	
+margin-left:-280px;	
+margin-top: -150px;	
+}
+
+/* 进度条 */
+.container {
+  margin: 100px auto;
+  width:350px;
+  text-align: center;
+}
+.progress-striped .progress-bar {
+  background-color: #FCBC51;
+  width:350px;
+  background-image: linear-gradient(45deg, #fca311 25%, transparent 25%, transparent 50%, #fca311 50%, #fca311 75%, transparent 75%, transparent);
+  animation: progressAnimationStrike 6s;
+}
+@keyframes progressAnimationStrike {
+  from {
+    width: 0;
+  }
+  to {
+    width:350px;
+  }
+}
+.progress-moved .progress-bar2 {
+  width:350px;
+  background-color: #EF476F;
+  animation: progressAnimation 6s;
+}
+@keyframes progressAnimation {
+  0% {
+    width: 5%;
+    background-color: #F9BCCA;
+  }
+  100% {
+    width:350px;
+    background-color: #EF476F;
+  }
+}
+.progress-infinite .progress-bar3 {
+  width:350px;
+  background-image: linear-gradient(to right, #4cd964, #5ac8fa, #007aff, #7DC8E8, #5856d6, #ff2d55);
+  animation: colorAnimation 1s infinite;
+}
+
+
+.llll img{
+position: absolute;	
+margin-left:-800px;
+margin-top: 200px;
+width:371px;
+height: 317px;
+}
+.ss{
+position: absolute;	
+margin-top:500px;	
+}
+.other{
+height:550px;	
+margin-top:1000px;	
+}
+.picture{
+  width:127px ;
+  height: 195px;
+  border: #000 solid 1px; */
+  margin: 0px auto;
+  left: 100px;
+  overflow: hidden;
+}
+.picture img{
+width:127px ;
+height: 195px;	
+}
+
+.xx{ 
+  position: absolute;	
+  margin-top: -20px;
+  width:127px ;
+  height: 195px;
+  border: #000 solid 1px;
+  margin: 0px auto;
+  left:200px;
+  overflow: hidden;
+}
+.xx img{
+position: absolute;
+/* margin-left:100px; */
+width:127px ;
+height: 195px;	
+}
+.Blog h1{
+font-size:10px;	
+text-align: center;
+}
+.kk img{
+/* position:absolute;	 */
+margin-left:-55px;	
+width:375px;
+height:158px;	
+}
+.Blog .kk span{
+font-size:25px;	
+color:red;
+text-align: center;	
+}	
+.Blog a{
+font: 3px;	
+text-decoration: none;
+color:red;	
+}
+.ll img{	
+width:375px;
+height:158px;	
+}
+.ll{
+margin-left:0px;
+margin-top:20px;	
+}
+.ll .vv span{
+font-size:25px;	
+color:red;
+text-align: center;		
+}
+.lianxi {
+width: 100px;
+height:20px;	
+}
+.lianxi a{
+font-size:10px;	
+text-align: center;
+}
+.kk {
+width: 100px;
+height:20px;	
+}
+.kk a{
+font-size:10px;	
+text-align: center;
+}
+.qwer{
+margin-top:600px;	
+}
+
+
+
+
+
+
+		
